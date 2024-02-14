@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Libre+Baskerville&display=swap');
+
+html {
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    
+}
+
+
+.container {
+    text-align: center;
+   
+    margin-top: 25px;
+    display: flex; /* Use flexbox layout */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    gap: 30px; /* Gap between elements */
+    padding-top: 50px;
+}
+.container h1{
+    display: flex;
+    flex-direction: wrap;
+}
+.container textarea {
+    height: 500px;
+    width: calc((100% - 90px) / 2); /* Calculate width for two textareas with gap */
+    border: 2px solid black;
+    box-sizing: border-box; /* Include padding and border in width calculation */
+}
+
+.navbar {
+    background-color: #D1FFA2;
+    height: 70px;
+    position: fixed;
+}
+
+.nav-brand h1{
+    color: #00CF95;
+    padding-left: 700px;
+}
+
+
+
+#output-screen {
+    color: white;
+    border: 0.5px solid black;
+}
+
+textarea {
+    display: flex;
+    background-color: black;
+    color: white;
+}
+.sidebar {
+    background-color: black;
+    width: 50px;
+    position: fixed;
+    height: 800px;
+}
+
+.languages.icons ul {
+    list-style: none;
+    padding: 0;
+}
+
+.languages.icons a {
+    display: block; /* Make the anchor tag a block element */
+    margin-bottom: 20px; /* Set the spacing between each item */
+}
+
+.languages.icons img {
+    width: 100%; /* Use the full width of the anchor tag */
+    height: auto; /* Maintain aspect ratio */
+}
